@@ -14,7 +14,6 @@ function errorHandler(err, req, res, next) {
         stack: process.env.NODE_ENV === "production" ? "🥞" : err.stack,
     });
 }
-
 module.exports = {
     notFound,
     errorHandler,

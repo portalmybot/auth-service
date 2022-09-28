@@ -71,3 +71,6 @@ typings/
 
 # Serverless directories
 .serverless
+
+# Vscode workspace file
+*.code-workspace
